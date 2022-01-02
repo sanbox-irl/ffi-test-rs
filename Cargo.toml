@@ -1,0 +1,15 @@
+[package]
+name = "ffi-test"
+version = "0.1.0"
+authors = ["Jonathan Spira <jjspira@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+# our shared utils
+# gm-ffi = { path = "../gm-ffi" }
+
+# a math library
+# glam ={version = "0.20", features = ["scalar-math"] }
+
+[lib]
+crate-type = ["cdylib"]
